@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64</Platforms>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies> <!-- Copia dependencias -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Referencia a SDKAutoSysTech -->
+    <Reference Include="SDKAutoSysTech">
+      <HintPath>..\..\Bin\SDKAutoSysTech.dll</HintPath>
+      <CopyLocal>true</CopyLocal>
+    </Reference>
+    <Reference Include="System.IO.Ports">
+      <HintPath>..\..\Bin\System.IO.Ports.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
