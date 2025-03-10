@@ -19,7 +19,7 @@ mono_crash.*
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
+# [Rr]elease/  <--- Se ha eliminado para permitir la subida de Release
 [Rr]eleases/
 x64/
 x86/
